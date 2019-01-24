@@ -7,7 +7,6 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-    if (!msg.content.startsWith(A ) || !msg.guild) return;
     if (command === 'guide') return msg.channel.send('https://git.io/d.js-heroku');
     else if (command === 'invite') return msg.channel.send();
     else if (command === 'AA') return msg.channel.send(A AA);
