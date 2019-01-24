@@ -1,28 +1,31 @@
 {
-  "name": "looper bot",
-  "version": "4.2.0",
-  "description": "vixi's bot",
-  "main": "app.js",
+  "name": "discord.js-heroku",
+  "version": "1.0.0",
+  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
+  "main": "index.js",
+  "engines": {
+    "node": "8.x",
+    "npm": "*"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
-  "engines": {
-    "node": "8.4.0"
+    "start": "node index.js"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "git+https://github.com/synicalsyntax/discord.js-heroku.git"
   },
-  "keywords": [],
-  "author": "vixi",
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "author": "synicalsyntax",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/synicalsyntax/discord.js-heroku/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme",
   "dependencies": {
-    "discord.js": "^11.3.2",
-    "ffmpeg": "0.0.4"
+    "discord.js": "^11.3.0"
   }
 }
