@@ -6,7 +6,7 @@ client.on('ready', () => {
     client.user.setActivity('youtube', {type: 'STREAMING'});
 });
 
-client.on('message', msg => {
+client.on('message', async msg => {
     if (message === 'guide') return msg.channel.send('https://git.io/d.js-heroku');
     else if (message === 'invite') return msg.channel.send();
     else if (message === 'AA') return msg.channel.send(AA);
